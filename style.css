@@ -1,0 +1,74 @@
+button{
+background-color: white
+}
+
+label{
+text-align : center;
+}
+
+input{
+text-align : center;
+}
+
+body{
+background: beige;
+border : 5px dotted black;
+}
+
+form{
+background-color: white;
+border: 1px solid black;
+border-radius: 2%;
+}
+
+div{
+background-color: AntiqueWhite ;
+border: 5px solid black;
+border-radius: 5%;
+width: 500px;
+}
+
+#border{
+background-color: white;
+border: 1px solid black;
+border-radius: 5%;
+}
+
+h1{
+font-family : georgia;
+text-align : center;
+}
+
+h2{
+font-family : serif;
+
+}
+
+h3{
+font-family : cursive;
+
+}
+
+p{
+font-family : monospace
+}
+
+li{
+font-family : monospace
+}
+
+a{
+font-family : monospace
+}
+
+hr{
+height:2px;
+border-width:0;
+color:black;
+background-color:black;
+
+
+
+
+
+
