@@ -3,13 +3,14 @@
 <title>Assignment of HTML AND C </title>
 
 <link rel = "stylesheet" type = "text/css" href = "style.css">
+<link rel="icon" href="https://www.freeiconspng.com/thumbs/homework-icon-png/homework-icon-25.png" type="image/png">
 </head>
 
 
 <body>
 
  <br>
- <h1> Assignment of HTML AND C </h1> <br> <br>
+ <h1 style = "color : teal;"> Assignment of HTML AND C </h1> <br> <br>
  <h2> Different String Handling Functions (strlen(), strlwr(), strupr(), strcpy(), strcmp(), strcat(), strcpncat() )</h2> <br>
  <h3> Code:</h3> <br>
 <div>
@@ -332,6 +333,64 @@ int main() {
  src = "newagain.png">
 <br><br><hr><br><br>
 
+<h2>Storing and Displaying Numbers and Characters in 1d Array</h2> <br>
+ <h3>Code:</h3> <br>
+<div>
+<pre>
+#include <stdio.h>
+
+int main() {
+
+    char b[10];
+    char c[10];
+    int d[10];
+    int e[10];
+    int i;
+//Storing and Displaying Numbers and Characters in 1d Array
+    printf("Write Word (Horizontal):");
+    for (i = 0; i < 5; i++) {
+        scanf(" %c", &b[i]);
+    }
+
+    printf("%s\n", b);
+
+    printf("Write Word (Vertical):");
+
+
+    for(i = 0; i < 5; i++)
+        {
+        printf("%c\n", b[i]);
+    }
+
+     printf("Write Number (Horizontal):");
+    for (i = 0; i < 5; i++) {
+        scanf("%d", &d[i]);
+    }
+
+    for(i=0; i<5; i++){
+        printf("%d ", d[i]);
+    }
+    printf("\n");
+
+    printf("Write Number (Vertical):");
+
+
+    for(i = 0; i < 5; i++)
+        {
+        printf("%d\n", d[i]);
+    }
+
+
+    printf("Code Executed by AAVASH POUDEL");
+    return 0;
+}
+
+</pre>
+</div>
+<br><br><h3>Output:</h3><br><br>
+<img style = "border-radius : 5%;"
+ src = "1darray.png">
+<br><br><hr><br><br>
 
 <br><br><div style = "max-width: fit-content;
   margin-left: auto;
